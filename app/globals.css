@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -800px 0
+  }
+
+  100% {
+    background-position: 800px 0
+  }
+}
+
+
+.preload {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background-color: #f6f7f8;
+  background: linear-gradient(to right, #e6e4e469 8%, #f0eded63 18%, #e4dddd9a 33%);
+  background-size: 800px 104px;
+  position: relative;
+  /* border-radius: 8px ; */
+}
+
+.btn {
+  background: rgb(185, 20, 39);
+  background: linear-gradient(100deg, rgba(185, 20, 39, 1) 0%, rgba(186, 73, 183, 1) 35%, rgba(186, 73, 183, 1) 100%);
+  padding: 2px;
+  border-radius: 13px;
+}
+
+.btn1 {
+  background: rgb(185, 20, 39);
+  background: linear-gradient(100deg, #e0a29b 0%, #ba47bd 35%, #ba47bd 100%);
+  padding: 1px;
+  border-radius: 13px;
+}
+
+.bgBtn {
+  background: linear-gradient(100deg, #fff 0%, #fffbf7 35%, #fffbf7 100%);
+}
+
+
+.clip {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, rgba(253, 183, 63, 1) 26%, rgba(199, 42, 7, 1) 82%, rgba(199, 42, 7, 1) 100%);
+}
+
+.heartBreak {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(97.43deg, #FDB83F 5.77%, #C01700 35.28%);
+}
+
+.date {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(75.3deg, #9205FE -31.46%, #C01700 129.67%);
+}
+
+
+.location {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(280.55deg, #E73A81 47%, #9104FD 83.11%);
+}
+
+
+.event {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(264.46deg, #9205FE -1.69%, #C01700 115.92%);
+}
+
+.btnText {
+  background: rgb(253, 183, 63);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(114.05deg, #E73A81 15.43%, #9104FD 25.61%);
+}
+
+
+.srolling {
+  position: relative;
+  right: 0%;
+  top: -30%;
+  animation-name: sliderAnimi;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.bgImg1 {
+  background-image: url("../app/assets/cardBg.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+
+.bgImg2 {
+  background-image: url("../app/assets/cardBg1.jpeg");
+  background-position: center;
+  background-size: contain;
+}
+
+.gallery1{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery1.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery2{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/cardBg.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery3{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery3.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery4{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery4.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery6{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery6.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+.gallery5{
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery5.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.gallery7 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery7.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery8 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery8.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery9 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery9.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery10 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery10.jpeg");
+  background-position:  center center;
+  background-size: cover;
+}
+
+.gallery11 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery11.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery12 {
+  padding: 10px;
+  display: flex;
+  align-items: end;
+  background-image: url("../app/assets/gallery12.jpeg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
+
+@keyframes sliderAnimi {
+  0% {
+    right: -30%;
+  }
+
+  20% {
+    right: 0%;
+  }
+
+  40% {
+    right: 30%;
+  }
+
+  60% {
+    right: 0%;
+  }
+
+  80% {
+    right: -30%;
+  }
+
+  100% {
+    right: 0%;
+  }
+}
+
+.serious {
+  background: #cc29a7;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #cc29a7 0%, rgba(169, 19, 218, 0.9836135137648809) 36%, rgba(169, 19, 218, 1) 54%);
+}
